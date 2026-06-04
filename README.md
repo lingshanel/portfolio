@@ -8,11 +8,12 @@
 - `styles.css`
 - `awoo-architecture.png`
 
-## 배포
+## 배포 주소
 
-정적 HTML/CSS 사이트라 GitHub Pages, Vercel, Netlify에 그대로 배포할 수 있습니다.
+GitHub Pages로 배포합니다.
+
+- https://lingshanel.github.io/portfolio/
 
 ## 수정할 내용
 
-- `index.html`의 이메일 주소를 실제 연락처로 변경
 - 프로젝트 2, 프로젝트 3이 만들어지면 카드 내용과 미리보기 교체
