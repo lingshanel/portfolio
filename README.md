@@ -7,6 +7,7 @@
 - `index.html`
 - `styles.css`
 - `awoo-architecture.png`
+- `study-moim-main.png`
 
 ## 배포 주소
 
@@ -14,6 +15,8 @@ GitHub Pages로 배포합니다.
 
 - https://lingshanel.github.io/portfolio/
 
-## 수정할 내용
+## 현재 반영된 프로젝트
 
-- 프로젝트 2, 프로젝트 3이 만들어지면 카드 내용과 미리보기 교체
+- AWOO/KR
+- 스터디모임
+- 프로젝트 3 예정 영역

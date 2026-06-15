@@ -6,7 +6,7 @@
     <title>Backend Developer Portfolio</title>
     <meta
       name="description"
-      content="백엔드 개발자 취업 준비를 위한 포트폴리오 사이트 초안입니다."
+      content="직접 서비스를 만들며 백엔드를 배워가는 개발자 지망생의 프로젝트 포트폴리오입니다."
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
@@ -70,6 +70,9 @@
             <span>Prisma</span>
             <span>Next.js</span>
             <span>Supabase</span>
+            <span>Java</span>
+            <span>Spring Boot</span>
+            <span>MySQL</span>
           </div>
         </aside>
       </section>
@@ -116,30 +119,30 @@
         </div>
         <div class="skill-columns">
           <article>
-            <h3>AWOO Backend</h3>
-            <p>AWOO/KR에서 NestJS를 사용해 게시판, 댓글, 업로드, 신고, 관리자 기능을 모듈로 나누어 만들어봤습니다.</p>
+            <h3>API와 서비스 기능</h3>
+            <p>AWOO/KR과 스터디모임에서 게시글, 댓글, 반응, 신고, 관리자 기능을 REST API로 만들어봤습니다.</p>
             <div class="skill-list">
               <span>NestJS</span>
-              <span>TypeScript</span>
-              <span>API Server</span>
+              <span>Spring MVC</span>
+              <span>REST API</span>
             </div>
           </article>
           <article>
-            <h3>AWOO Database</h3>
-            <p>AWOO/KR에서 PostgreSQL과 Prisma를 사용해 게시판, 글, 댓글, 첨부파일, 신고, 관리자 세션 데이터를 다뤄봤습니다.</p>
+            <h3>데이터와 인증</h3>
+            <p>PostgreSQL·Prisma와 MySQL·JPA를 각각 사용하고, 작성자 비밀번호 방식과 세션 로그인 방식을 프로젝트에 적용해봤습니다.</p>
             <div class="skill-list">
               <span>PostgreSQL</span>
-              <span>Prisma</span>
-              <span>Migration</span>
+              <span>MySQL</span>
+              <span>JPA</span>
             </div>
           </article>
           <article>
-            <h3>AWOO Deployment</h3>
-            <p>AWOO/KR에서 Vercel, Render, Supabase를 사용해 프론트엔드, 백엔드, DB, Storage를 나누어 배포해봤습니다.</p>
+            <h3>운영 흐름 경험</h3>
+            <p>AWOO/KR을 분리 배포해봤고, 스터디모임에서는 관리자 기록, 로그인 제한, 이메일 인증과 실시간 접속 기능을 구현해봤습니다.</p>
             <div class="skill-list">
-              <span>Vercel</span>
-              <span>Render</span>
-              <span>Supabase</span>
+              <span>Deployment</span>
+              <span>WebSocket</span>
+              <span>Security Flow</span>
             </div>
           </article>
         </div>
@@ -212,51 +215,30 @@
           </article>
 
           <article class="project-card">
-            <div class="project-preview preview-study" aria-label="스터디 모집 플랫폼 예정 화면 미리보기">
-              <div class="preview-bar">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <div class="preview-body">
-                <div class="preview-content full">
-                  <strong>Study Board</strong>
-                  <div class="preview-list">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
-                  <div class="preview-chips">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                  </div>
-                </div>
-              </div>
+            <div class="project-preview preview-study" aria-label="스터디모임 사이트 미리보기">
+              <img src="./study-moim-main.png" alt="스터디모임 메인 화면" />
             </div>
             <div class="card-top">
-              <p class="project-label">Planned / Project 2</p>
-              <span class="status planned">제작 예정</span>
+              <p class="project-label">Built / Project 2</p>
+              <span class="status done">기능 구현</span>
             </div>
-            <h3>스터디 모집 플랫폼</h3>
+            <h3>스터디모임</h3>
             <p>
-              백엔드 기본기를 정리하고 확인하기 위한 서비스입니다. 회원가입, 로그인,
-              게시글/댓글 CRUD, 검색, 페이지네이션, 좋아요/북마크를 구현할 예정입니다.
+              스터디를 원하는 사용자가 모집글을 작성하고 댓글과 답글로 참여 의사를
+              나누는 서비스입니다. 정석적인 웹 기능을 Java와 Spring으로 직접 구현해봤습니다.
             </p>
             <dl>
               <div>
-                <dt>목표</dt>
-                <dd>CRUD, 인증/인가, API 구성</dd>
+                <dt>사용해본 기술</dt>
+                <dd>Java 21, Spring Boot, JPA, MySQL</dd>
               </div>
               <div>
-                <dt>핵심</dt>
-                <dd>JWT, Refresh Token, 권한 확인</dd>
+                <dt>구현</dt>
+                <dd>세션 인증, CRUD, 검색, 신고, 관리자</dd>
               </div>
             </dl>
-            <div class="feature-tags">
-              <span>Auth</span>
-              <span>Pagination</span>
-              <span>Search</span>
+            <div class="project-links">
+              <a href="https://github.com/lingshanel/study-moim">GitHub</a>
             </div>
           </article>
 
@@ -347,6 +329,31 @@
             </section>
           </div>
         </article>
+
+        <article class="study-detail">
+          <div class="detail-copy">
+            <p class="project-label">Project Note</p>
+            <h3>스터디모임에서 연습한 기본기</h3>
+            <p>
+              규모를 크게 만들기보다 회원, 세션 인증, 게시글과 댓글, 검색과 페이지네이션처럼
+              웹 서비스에서 자주 만나는 흐름을 Spring MVC 구조로 나누어 구현하는 데 집중했습니다.
+            </p>
+          </div>
+          <div class="detail-grid">
+            <section>
+              <h4>데이터 관계</h4>
+              <p>회원, 모집글, 댓글과 답글, 좋아요, 북마크, 신고 관계를 JPA 엔티티와 MySQL 테이블로 구성했습니다.</p>
+            </section>
+            <section>
+              <h4>인증과 보안</h4>
+              <p>세션 로그인, BCrypt 비밀번호, 로그인 실패 제한, 이메일 인증번호 기반 비밀번호 재설정을 적용했습니다.</p>
+            </section>
+            <section>
+              <h4>운영 기능</h4>
+              <p>회원 제재, 콘텐츠 삭제, 신고 처리와 작업 기록을 확인할 수 있는 숨겨진 관리자 화면을 만들었습니다.</p>
+            </section>
+          </div>
+        </article>
       </section>
 
       <section id="roadmap" class="section-band roadmap-section">
@@ -362,8 +369,8 @@
           </div>
           <div>
             <span>02</span>
-            <strong>프로젝트 2 제작</strong>
-            <p>백엔드 기본기, 인증/인가, CRUD, 검색, 페이지네이션 연습</p>
+            <strong>프로젝트 2 문서화</strong>
+            <p>스터디모임 기능 구현과 사용자 흐름 점검 완료, GitHub와 포트폴리오 정리</p>
           </div>
           <div>
             <span>03</span>
@@ -386,11 +393,11 @@
         <div class="contact-panel">
           <p>
             백엔드 개발자 취업을 목표로 프로젝트를 하나씩 만들어가고 있습니다.
-            현재 페이지는 포트폴리오 초안이며, 프로젝트 2와 3이 만들어지면 같은 구조에 맞춰 업데이트할 예정입니다.
+            현재 AWOO/KR과 스터디모임의 구현 경험을 정리했으며, 다음에는 보안 학습 프로젝트를 추가할 예정입니다.
           </p>
           <div class="contact-links">
             <a href="https://github.com/lingshanel">GitHub</a>
-            <span>Portfolio v0.2</span>
+            <span>Portfolio v0.3</span>
           </div>
         </div>
       </section>
