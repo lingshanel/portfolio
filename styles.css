@@ -168,6 +168,10 @@ h1 {
   line-height: 1.03;
 }
 
+.hero-title {
+  font-size: clamp(2.55rem, 4.45vw, 4.4rem);
+}
+
 .hero-title span {
   display: block;
 }
@@ -175,6 +179,10 @@ h1 {
 .hero-title span:not(:last-child) {
   color: var(--text);
   font-size: inherit;
+}
+
+.hero-title span:nth-child(2) {
+  white-space: nowrap;
 }
 
 .hero-title span:last-child {
