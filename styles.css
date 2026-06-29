@@ -187,6 +187,7 @@ h1 {
 
 .hero-title span:last-child {
   color: var(--accent-strong);
+  margin-top: 22px;
   width: max-content;
   max-width: 100%;
   white-space: nowrap;
