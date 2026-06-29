@@ -172,6 +172,11 @@ h1 {
   display: block;
 }
 
+.hero-title span:not(:last-child) {
+  color: var(--text);
+  font-size: inherit;
+}
+
 .hero-title span:last-child {
   color: var(--accent-strong);
   width: max-content;
