@@ -172,7 +172,7 @@ h1 {
   display: block;
 }
 
-.hero-title span + span {
+.hero-title span:last-child {
   color: var(--accent-strong);
   width: max-content;
   max-width: 100%;
@@ -1221,7 +1221,7 @@ dd {
     font-size: clamp(2.05rem, 11vw, 3.1rem);
   }
 
-  .hero-title span + span {
+  .hero-title span:last-child {
     font-size: clamp(1.35rem, 7.2vw, 2.05rem);
   }
 
